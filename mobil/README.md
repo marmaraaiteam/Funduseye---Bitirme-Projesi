@@ -1,16 +1,33 @@
-# fundus
+# Funduseye Projesi - Mobil Uygulama
 
-A new Flutter project.
+Funduseye, göz hastalıklarının sınıflandırılması için geliştirilmiş bir projedir. Bu belge, projenin mobil uygulama bileşeni hakkında bilgi vermektedir.
 
-## Getting Started
+## İçindekiler
+- [Açıklama](#açıklama)
+- [Kullanım](#kullanım)
+- [API](#api)
+- [Grup Üyeleri](#grup-üyeleri)
 
-This project is a starting point for a Flutter application.
+## Açıklama
+Projenin mobil uygulaması, kullanıcıların göz görüntülerini yükleyerek hastalık tahmini almasını sağlamaktadır. Uygulama, API'ye istek göndererek sonucu kullanıcıya göstermektedir. Uygulama Flutter dilinde yazılmıştır.
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanım
+1. Mobil uygulamayı açın.
+2. Göz görüntüsünü yükleyin.
+3. Tahmin edilen sınıfı ve olasılığı görüntüleyin.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Açıklama
+Proje, göz hastalıklarını tahmin etmek için bir API kullanmaktadır. Bu API, Hugging Face üzerinden sunulmaktadır ve eğitilmiş TensorFlow modelini kullanarak görüntü sınıflandırması yapmaktadır.
+
+### Kullanım
+API'yi kullanmak için bir POST isteği yapmanız gerekmektedir. İstek, tahmin edilecek göz görüntüsünü içermelidir.
+
+#### Endpoint
+- API linki: [https://huggingface.co/spaces/Bitirme/odirapi](https://huggingface.co/spaces/Bitirme/odirapi)
+
+## Grup Üyeleri
+- Yaren Can
+- Kübra Buzlu
+- Hüseyin Taşkın
